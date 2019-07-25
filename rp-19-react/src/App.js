@@ -77,6 +77,9 @@ class App extends Component {
   render() {
     return (
       <>
+      <h1>
+        Vintage Camera Clicky Game
+      </h1>
         <h3 id="scorecard">
           You currently have {this.state.count} out of {this.state.total}!
         </h3>
