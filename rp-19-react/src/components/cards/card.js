@@ -10,7 +10,7 @@ import "./cardstyle.css";
 // };
 function Card(image) {
     return <>
-    <div className="image-card">
+    <div className="image-card card">
         <img  onClick = {image.onClick} src={image.src}  id = {image.id} alt = {image.alt}/>
     </div>
 </>
